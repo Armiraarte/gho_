@@ -144,15 +144,15 @@ export const EARTH_STAGES: EarthStage[] = [
     },
   },
   {
-    // Guadalajara asomando bajo el formulario, tenue y sin tarjetas para no estorbar al texto
+    // Cierre: Guadalajara asomando bajo el titular, sin tarjetas para no estorbar al texto
     id: 'contacto',
     desktop: {
-      x: 0, y: -1.6, z: 0, scale: 0.95, rotationY: faceLng(GUADALAJARA.lng), rotationX: 0.15,
-      connectionsOpacity: 0.3, labelsOpacity: 0, ...NO_FOCUS, curveMirror: CURVE_LOGO, globeOpacity: 0.6,
+      x: 0, y: -2.7, z: 0, scale: 0.95, rotationY: faceLng(GUADALAJARA.lng), rotationX: -0.35,
+      connectionsOpacity: 0.3, labelsOpacity: 0, ...NO_FOCUS, curveMirror: CURVE_LOGO, globeOpacity: 1,
     },
     mobile: {
-      x: 0, y: -1.2, z: 0, scale: 0.8, rotationY: faceLng(GUADALAJARA.lng), rotationX: 0.15,
-      connectionsOpacity: 0.3, labelsOpacity: 0, ...NO_FOCUS, curveMirror: CURVE_LOGO, globeOpacity: 0.6,
+      x: 0, y: -2.0, z: 0, scale: 0.8, rotationY: faceLng(GUADALAJARA.lng), rotationX: -0.35,
+      connectionsOpacity: 0.3, labelsOpacity: 0, ...NO_FOCUS, curveMirror: CURVE_LOGO, globeOpacity: 1,
     },
   },
 ];

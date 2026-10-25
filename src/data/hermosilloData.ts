@@ -140,7 +140,7 @@ export const hermosilloData = {
       id: "armirarte",
       number: "03",
       name: "ARMiRARTE",
-      shortName: "ARMiRARTE Tech",
+      shortName: "ARMiRARTE",
       sector: "Desarrollo de Software, Inteligencia Artificial, Automatización y Tecnología",
       tagline: "Ingeniería de software de vanguardia y sistemas de inteligencia artificial",
       description:
