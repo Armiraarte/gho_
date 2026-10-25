@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+/*
+ * Paleta Platino — Grupo Hermosillo de Occidente
+ * Se usa como clases de Tailwind: bg-platinum, text-silver, border-graphite, etc.
+ */
+@theme {
+  --color-platinum: #E5E4E2;        /* Acento principal (antes azul #468BCC) */
+  --color-platinum-soft: #C9C8C4;   /* Acento atenuado / hover */
+  --color-platinum-deep: #6E6D69;   /* Acento sobre fondo claro (contraste AA) */
+  --color-silver: #A9A9A6;          /* Texto secundario y metadatos */
+  --color-ink: #0A0A0B;             /* Fondo base */
+  --color-ink-deep: #050506;        /* Fondo del footer */
+  --color-graphite: #161618;        /* Superficies: tarjetas, botones */
+  --color-graphite-hover: #1F1F22;  /* Superficie en hover */
+  --color-graphite-deep: #111113;   /* Modal */
+  --color-paper: #F7F7F5;           /* Fondo claro (sección Filosofía) */
+}
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-display: 'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-mono: 'Space Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-ink);
+    color: #EDEDEB;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-ink);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2A2A2D;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3D3D41;
+}
+
+/* Three.js canvas responsive container */
+.canvas-container canvas {
+  width: 100% !important;
+  height: 100% !important;
+  outline: none;
+}

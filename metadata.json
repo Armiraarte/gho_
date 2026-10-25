@@ -1,0 +1,6 @@
+{
+  "name": "Grupo Hermosillo de Occidente",
+  "description": "Holding empresarial mexicano que integra Hermosillo y Asociados, Hermosillo Inmobiliaria, ARMiRARTE y Espacio Chapultepec. Experiencia corporativa cinematográfica con planeta 3D interactivo persistente.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
